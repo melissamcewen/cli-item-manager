@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "title": "roast carrots",
+      "category": "appetizer",
+      "description": "carrots roasted with a savory yogurt sauce"
+    },
+    {
+      "title": "carrots",
+      "category": "appetizer",
+      "description": "terrible and awful"
+    },
+    {
+      "title": "onions",
+      "category": "appetizer",
+      "description": "terrible and awful"
+    }
+  ]
+}
