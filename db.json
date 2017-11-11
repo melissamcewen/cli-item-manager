@@ -1,19 +1,29 @@
 {
   "items": [
     {
-      "title": "roast carrots",
-      "category": "appetizer",
-      "description": "carrots roasted with a savory yogurt sauce"
+      "title": "Sweater",
+      "category": "outers",
+      "description": "Wool sweater with flowers on it "
     },
     {
-      "title": "carrots",
-      "category": "appetizer",
-      "description": "terrible and awful"
+      "title": "Mom Jeans",
+      "category": "bottoms",
+      "description": "Vintage high-waisted mom jeans"
     },
     {
-      "title": "onions",
-      "category": "appetizer",
-      "description": "terrible and awful"
+      "title": "Little Black Dress",
+      "category": "dresses",
+      "description": "simple black dress from Ann Taylor"
+    },
+    {
+      "title": "green sweater",
+      "category": "outers",
+      "description": "grandma made it"
+    },
+    {
+      "title": "red sweater 2",
+      "category": "outers",
+      "description": "grandma made it"
     }
   ]
 }

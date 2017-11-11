@@ -24,7 +24,7 @@ program
   .command('listItems')
   .alias('l')
   .description('Get items')
-  .action(getItems);
+  .action(getItems());
 
 
 program.parse(process.argv);
