@@ -8,6 +8,8 @@ node item.js --help
 ```
 to see the commands available. 
 
+![Example](https://cdn.glitch.com/ee687511-c8d7-4150-94b2-b5f44acb1744%2FGlitch_-_Terminal_and_iTunes.jpg?1510437641332)
+
 Cool Sites That Helped me
 ------------
 

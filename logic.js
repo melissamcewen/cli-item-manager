@@ -31,6 +31,7 @@ function groupBy(array, group) {
     console.log(chalk.blue.bold(key) + chalk.red('\n************\n') + chalk.blue(result[key]) + "\n\n");
 
   }
+  return;
 }
 
 
@@ -52,7 +53,7 @@ const addItem = (title, category, description) => {
  * @returns {Json} Item
  */
 const getItem = (title) => {
-  var result = db.get('items')
+  const result = db.get('items')
   .filter({title: title})
   .value();
   console.log(result);
@@ -63,7 +64,7 @@ const getItem = (title) => {
  * @returns {Json} Items
  */
 const getItems = (category) => {
-  var result = db.get('items')
+  const result = db.get('items')
   .value();
   groupBy(result, "category");
 };

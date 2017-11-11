@@ -23,8 +23,8 @@ program
 program
   .command('listItems')
   .alias('l')
-  .description('Get items')
-  .action(getItems());
+  .description('list items')
+  .action(function(){getItems()});
 
 
 program.parse(process.argv);
