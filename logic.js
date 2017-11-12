@@ -2,6 +2,8 @@
 const low = require('lowdb');
 const db = require('./db');
 const chalk = require('chalk');
+var _ = require('lodash');
+
 
 
 
@@ -54,7 +56,7 @@ const addItem = (title, category, description) => {
  */
 const getItem = (title) => {
   const result = db.get('items')
-  .filter({title: title})
+  .filter(function(o) { return o.title.includes(title)})
   .value();
   console.log(result);
 };

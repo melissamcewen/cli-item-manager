@@ -17,7 +17,7 @@ program
 program
   .command('getItem <title>')
   .alias('r')
-  .description('Get item')
+  .description('Get item by title')
   .action(title => getItem(title));
 
 program

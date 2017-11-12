@@ -3,47 +3,38 @@
     {
       "title": "Sweater",
       "category": "outers",
-      "description": "Wool sweater with flowers on it "
+      "description": "Wool sweater with flowers on it ",
+      "active": true
     },
     {
       "title": "Mom Jeans",
       "category": "bottoms",
-      "description": "Vintage high-waisted mom jeans"
+      "description": "Vintage high-waisted mom jeans",
+      "active": false
     },
     {
       "title": "Little Black Dress",
       "category": "dresses",
-      "description": "simple black dress from Ann Taylor"
+      "description": "simple black dress from Ann Taylor",
+      "active": false
     },
     {
       "title": "green sweater",
       "category": "outers",
-      "description": "grandma made it"
+      "description": "grandma made it",
+      "active": true
     },
     {
       "title": "red sweater 2",
       "category": "outers",
-      "description": "grandma made it"
+      "description": "grandma made it",
+      "active": false
     },
     {
       "title": "red sweater 3",
       "category": "outers",
-      "description": "grandma made it"
-    },
-    {
-      "title": "red sweater 3",
-      "category": "outers",
-      "description": "grandma made it"
-    },
-    {
-      "title": "red sweater 3",
-      "category": "outers",
-      "description": "grandma made it"
-    },
-    {
-      "title": "red sweater 3",
-      "category": "outers",
-      "description": "grandma made it"
+      "description": "grandma made it",
+      "active": false
     }
   ]
 }
