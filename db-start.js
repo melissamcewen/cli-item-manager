@@ -9,7 +9,7 @@ db.defaults({ items: [] })
 
 // Add an example
 db.get('items')
-  .push({title: 'roast carrots', category: 'appetizer', description: 'carrots roasted with a savory yogurt sauce'})
+  .push({title: 'Ugly pants', category: 'bottoms', description: 'why do I even have these pants? so uggo'})
   .write()
 
 

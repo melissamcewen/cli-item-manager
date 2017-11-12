@@ -17,14 +17,14 @@ program
 program
   .command('getItem <title>')
   .alias('r')
-  .description('Get item')
+  .description('Get item by title')
   .action(title => getItem(title));
 
 program
   .command('listItems')
   .alias('l')
-  .description('Get items')
-  .action(getItems);
+  .description('list items')
+  .action(function(){getItems()});
 
 
 program.parse(process.argv);
